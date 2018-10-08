@@ -1,0 +1,53 @@
+body {
+	background-image: url(../images/bg1.jpg);
+	/*background-color: #44885ed;*/
+	background-size: cover;
+	-webkit-background-size; cover;
+	-moz-background-size; cover;
+	-o-background-size; cover;
+	background-repeat: no-repeat;
+	color: #ffffef; /*white*/
+	font-family: 'Bitter', serif;
+	/*font-family: 'Roboto', sans-serif;*
+	/*height: 100vh;* <viewport height>*/
+
+}
+h1{
+	font-size: 50px;
+	margin-bottom: 0;
+	/*background-color: #333; /*off-black*/
+	/*text-transform: uppercase;*/
+	letter-spacing: 2px;
+
+}
+h2{
+	text-transform: uppercase;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 7px;
+	color: 	#eedfcc;
+}
+
+#me{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	margin-top: 50px;
+}
+
+.bio{
+	width: 100%;
+	font-size: 20px;
+	color: black;
+	line-height: 1.5;
+	background-color: rgba(255,255,255, 0.3);
+
+}
+
+.container{
+	width: 1200px; /*500px or %*/
+	text-align: center;
+	margin: 0 auto; /*width should be declared*/
+}
